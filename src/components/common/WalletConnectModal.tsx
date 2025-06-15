@@ -145,6 +145,12 @@ const WalletConnectModal: React.FC<WalletConnectModalProps> = ({isOpen, onClose}
                                                     </label>
                                                 </div>
                                             )}
+
+                                            <div className="flex justify-between items-center mb-4">
+                                                <Button label={mode === "login" ? "Login" : "Register"}
+                                                        onClick={handleConnect}
+                                                        color="primary"/>
+                                            </div>
                                         </div>
                                     </div>
                                 ) : selectedWallet ? (
