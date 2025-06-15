@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-portrait-repeat {
+        background-image: url('/assets/images/bg-landing.webp');
+        background-color: #121312;
+        background-size: 100% auto;
+        background-position: top center;
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+* {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@keyframes walk {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 0.3;
+    }
+    50% {
+        transform: translate(-30px, 50px) rotate(180deg);
+        opacity: 0.7;
+    }
+    100% {
+        transform: translate(0, 0) rotate(360deg);
+        opacity: 0.3;
+    }
+}
+
+.animate-walk {
+    animation: walk infinite linear;
+}
+
+
+
+
+
+
+
+

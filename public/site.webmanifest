@@ -1,0 +1,106 @@
+{
+  "name": "CypherAI Application",
+  "short_name": "CypherAI",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#F9C664",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "description": "CypherAI helps bring your ideas to life. Use artificial intelligence to its fullest to help automate, innovate, and elevate your business to the next level.",
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "url": "/",
+      "icons": [{ "src": "/icon.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Service",
+      "short_name": "Service",
+      "url": "/service",
+      "icons": [{ "src": "/icon.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Discover",
+      "short_name": "Discover",
+      "url": "/discover",
+      "icons": [{ "src": "/icon.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "My Assets",
+      "short_name": "Assets",
+      "url": "/assets",
+      "icons": [{ "src": "/icon.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Text to 3D",
+      "short_name": "3D",
+      "url": "/3d",
+      "icons": [{ "src": "/icon.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Text to Music",
+      "short_name": "Music",
+      "url": "/music",
+      "icons": [{ "src": "/icon.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Text to Program",
+      "short_name": "Program",
+      "url": "/program",
+      "icons": [{ "src": "/icon.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Text to NFT",
+      "short_name": "NFT",
+      "url": "/nft",
+      "icons": [{ "src": "/icon.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Text to Metaverse",
+      "short_name": "Metaverse",
+      "url": "/metaverse",
+      "icons": [{ "src": "/icon.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Text to Game",
+      "short_name": "Game",
+      "url": "/game",
+      "icons": [{ "src": "/icon.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ]
+}
